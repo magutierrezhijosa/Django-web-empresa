@@ -22,5 +22,5 @@ def blog(request):
     return render(request, "core/bloghome.html")
 
 def sample(request):
-    return render(request, "core/samplee.html")
+    return render(request, "core/sample.html")
 
