@@ -23,7 +23,7 @@ urlpatterns = [
 
     path('', include('core.urls')),
     # Path de services
-    path('', include('services.urls')),
+    path('services/', include('services.urls')),
     # Paths del admin
     path('admin/', admin.site.urls),
 ]
